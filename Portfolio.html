@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Faiqa's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="home">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h2>About Me</h2>
+            <p>Hello, I'm Faiqa, a passionate software developer skilled in Java, Spring Boot, and web development.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Highlighted Projects</h2>
+        <div class="projects-list">
+            <div class="project-item">
+                <h3>Financial Tracker</h3>
+                <p>A financial tracking tool to manage transactions and budgets. Built with Java and Spring Boot.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>School Management System</h3>
+                <p>A database system for managing student, course, and grade information using C++ and SQL.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills & Experience</h2>
+        <ul class="skills-list">
+            <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
+            <li><strong>Backend:</strong> Java, Spring Boot, ASP.NET</li>
+            <li><strong>Databases:</strong> SQL, MySQL, SQL Server</li>
+            <li><strong>Tools:</strong> Git, Docker, Visual Studio</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Faiqa's Portfolio</p>
+    </footer>
+</body>
+</html>
